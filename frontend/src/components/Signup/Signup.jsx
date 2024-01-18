@@ -25,8 +25,8 @@ const Signup = () => {
     const newForm = new FormData();
 
     newForm.append("file", avatar);
-    newForm.append("email", email);
     newForm.append("name", name);
+    newForm.append("email", email);
     newForm.append("password", password);
 
     axios
